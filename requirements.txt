@@ -14,7 +14,7 @@ click==8.0.3  # Needed for Flask command line utilities
 cryptography==3.4.8  # If you need encryption
 eyeD3==0.9.6  # If handling audio metadata (consider necessity)
 httplib2==0.20.2  # Comprehensive HTTP client library
-idna==3.3  # International domain name support
+idna==2.5  # International domain name support
 MarkupSafe==2.0.1  # For Jinja2/Flask
 Pillow==9.0.1  # If you handle image processing
 protobuf==3.12.4  # Google's data interchange format (consider necessity)
