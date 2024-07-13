@@ -1,15 +1,29 @@
-blinker==1.8.2
-click==8.1.7
-Flask==3.0.3
-Flask-SQLAlchemy==3.0.3  # Updated version
-greenlet==3.0.3
-gunicorn==22.0.0
-itsdangerous==2.2.0
-Jinja2==3.1.4
-MarkupSafe==2.1.5
-packaging==24.1
-protobuf==5.27.2
-psycopg2-binary==2.9.9
-SQLAlchemy==1.4.46
-typing_extensions==4.12.2
-Werkzeug==3.0.3
+Flask==2.0.3
+Flask-SQLAlchemy==2.5.1
+sqlalchemy==1.4.25
+Flask-Migrate==3.1.0
+psycopg2-binary==2.9.1  # For PostgreSQL
+
+boto3==1.18.21  # If using AWS S3 for video storage
+
+beautifulsoup4==4.10.0  # If you need to scrape or parse HTML
+blinker==1.4  # For signal support in Flask
+certifi==2020.6.20  # Required for SSL certifications
+chardet==4.0.0  # Character encoding detector
+click==8.0.3  # Needed for Flask command line utilities
+cryptography==3.4.8  # If you need encryption
+eyeD3==0.9.6  # If handling audio metadata (consider necessity)
+httplib2==0.20.2  # Comprehensive HTTP client library
+idna==3.3  # International domain name support
+MarkupSafe==2.0.1  # For Jinja2/Flask
+Pillow==9.0.1  # If you handle image processing
+protobuf==3.12.4  # Google's data interchange format (consider necessity)
+pycryptodomex==3.11.0  # Cryptographic library
+Pygments==2.11.2  # If you need code highlighting
+python-dotenv==1.0.1  # Load .env file into environment variables
+requests==2.25.1  # HTTP library
+six==1.16.0  # Python 2 and 3 compatibility utilities (consider necessity)
+urllib3==1.26.5  # HTTP client (used by requests)
+
+# Optional depending on video handling requirements
+yt-dlp==2022.4.8  # If you are downloading videos
