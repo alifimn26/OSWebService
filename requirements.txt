@@ -7,7 +7,7 @@ chardet==4.0.0
 click==8.0.3
 colorama==0.4.4
 cryptography==3.4.8
-cython==3.0.10
+
 eyeD3==0.9.6
 filelock==3.6.0
 httplib2==0.20.2
@@ -64,3 +64,4 @@ websockets==9.1
 xlrd==1.2.0
 yt-dlp==2022.4.8
 zipp==1.0.0
+Cython==3.0.10
